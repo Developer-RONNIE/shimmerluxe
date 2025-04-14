@@ -32,7 +32,33 @@ const data = {
             name: 'Help',
             href: '/page/help',
         },
-    ]
+    ],
+
+    carousels: [
+        {
+            title: 'Most popular Rings for Sale',
+            buttonCaption: 'Shop Now',
+            image: '/images/banner2.jpg',
+            url: '/search?category=Rings',
+            isPublished: true,
+        },
+        {
+            title: 'Best Sellers in Necklaces',
+            buttonCaption: 'Shop Now',
+            image: '/images/banner1.jpg',
+            url: '/search?category=Necklaces',
+            isPublished: true,
+        },
+        {
+            title: 'Best Deals on Braclets',
+            buttonCaption: 'Shop Now',
+            image: '/images/banner3.jpg',
+            url: '/search?category=Rings',
+            isPublished: true,
+        },
+    ],
+
+
 }
 
 export default data
