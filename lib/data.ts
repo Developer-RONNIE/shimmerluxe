@@ -185,7 +185,7 @@ const products: IProductInput[] = [
       slug: toSlug('Seraphine Layered Chain Necklace'),
       category: 'Necklaces',
       subCategory: 'Office Wear',
-      images: ['/images/n_office_1.jpg', '/images/n_office_2.jpg'],
+      images: ['/images/n_office_1.png', '/images/n_office_2.jpg'],
       tags: ['featured', 'todays-deal'],
       isPublished: true,
       price: 399,
