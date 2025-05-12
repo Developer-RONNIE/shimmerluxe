@@ -2,11 +2,11 @@ import { Data, IProductInput } from "@/types"
 import { toSlug } from "./utils"
 
 const products: IProductInput[] = [
-    // Rings 
+    // Ring 
     {
       name: 'Urban Muse Stackable Ring',
-      slug: toSlug ('urban-muse-stackable-rings'),
-      category: 'Rings',
+      slug: toSlug ('urban-muse-stackable-Ring'),
+      category: 'Ring',
       subCategory: 'Daily Wear',
       images: ['/images/r_daily_1.jpg', '/images/r_daily_2.jpg'],
       tags: ['new-arrival', 'featured'],
@@ -38,8 +38,8 @@ const products: IProductInput[] = [
     },
     {
       name: 'Signature Cocktail Ring',
-      slug: toSlug('signature-cocktail-ring'),
-      category: 'Rings',
+      slug: toSlug('signature-cocktail-Ring'),
+      category: 'Ring',
       subCategory: 'Office Wear',
       images: [
         '/images/r_office_1.jpg',
@@ -73,9 +73,9 @@ const products: IProductInput[] = [
       reviews: [],
     },
     {
-      name: "Twinkle Mini Adjustable Rings",
-      slug: toSlug('twinkle-mini-adjustable-rings'),
-      category: 'Rings',
+      name: "Twinkle Mini Adjustable Ring",
+      slug: toSlug('twinkle-mini-adjustable-Ring'),
+      category: 'Ring',
       subCategory: 'Kids Wear',
       images: ['/images/r_kids_1.jpg', '/images/r_kids_2.jpg'],
       tags: ['best-seller'],
@@ -94,9 +94,9 @@ const products: IProductInput[] = [
       numSales: 55,
       countInStock: 13,
       description:[
-        'Colorful and adjustable rings, designed especially for kids who love to accessorize.',
+        'Colorful and adjustable Ring, designed especially for kids who love to accessorize.',
         'Crafted with skin-safe, child-friendly materials to ensure all-day comfort and safety.',
-        'Fun and vibrant colors make these rings a delightful addition to any outfit.',
+        'Fun and vibrant colors make these Ring a delightful addition to any outfit.',
         'Adjustable design ensures a perfect fit as your child grows.',
         'Ideal for birthdays, return gifts, or playful everyday wear.',
       ],
@@ -106,9 +106,9 @@ const products: IProductInput[] = [
       reviews: [],
     },
     {
-      name: 'SoulLink™ Engraved Couple Rings Set',
-      slug: toSlug('soullink-engraved-couple-rings'),
-      category: 'Rings',
+      name: 'SoulLink™ Engraved Couple Ring Set',
+      slug: toSlug('soullink-engraved-couple-Ring'),
+      category: 'Ring',
       subCategory: 'Customized',
       images: [
         '/images/r_customised_1.jpg',
@@ -146,11 +146,11 @@ const products: IProductInput[] = [
 
       reviews: [],
     },
-    // Necklaces
+    // necklace
     {
       name: 'Urban Grace Minimalist Necklace',
       slug: toSlug('urban-grace-minimalist-necklace'),
-      category: 'Necklaces',
+      category: 'Necklace',
       subCategory: 'Daily Wear',
       images: ['/images/n_daily_1.jpg', '/images/n_daily_2.jpg', '/images/n_daily_3.jpg'],
       tags: ['new-arrival'],
@@ -183,9 +183,9 @@ const products: IProductInput[] = [
     {
       name: 'Seraphine Layered Chain Necklace',
       slug: toSlug('Seraphine Layered Chain Necklace'),
-      category: 'Necklaces',
+      category: 'necklace',
       subCategory: 'Office Wear',
-      images: ['/images/n_office_1.png', '/images/n_office_2.jpg'],
+      images: ['/images/n_office_1.jpg', '/images/n_office_2.jpg'],
       tags: ['featured', 'todays-deal'],
       isPublished: true,
       price: 399,
@@ -216,7 +216,7 @@ const products: IProductInput[] = [
     {
       name: 'Flower Petal Party Choker',
       slug: toSlug('flower-petal-party-choker'),
-      category: 'Necklaces',
+      category: 'necklace',
       subCategory: 'Party Wear',
       images: ['/images/n_chockers_party_1.webp', '/images/n_chockers_party_2.webp'],
       tags: ['best-seller'],
@@ -237,6 +237,7 @@ const products: IProductInput[] = [
       description:[
         "Elegant choker necklace crafted for evening and party occasions.",
         "Designed with skin-friendly materials for long-lasting comfort and style.",
+        
         "Statement-making silhouette with a refined touch of glam.",
         "Perfect for cocktail parties, weddings, or festive events.",
         "Available in popular choker lengths(in inches) to match all necklines and styling preferences."
@@ -249,7 +250,7 @@ const products: IProductInput[] = [
     {
       name: 'BohoSoul Layered Pendant Necklace',
       slug: toSlug('bohosoul-layered-pendant-necklace'),
-      category: 'Necklaces',
+      category: 'necklace',
       subCategory: 'Indo-Western',
       images: ['/images/n_indo_1.jpg', '/images/n_indo_2.jpg', '/images/n_indo_3.jpg'],
       tags: ['todays-deal'],
@@ -309,11 +310,11 @@ const products: IProductInput[] = [
   
       reviews: [],
     },
-    // Braclets
+    // Braclet
     {
-      name: "SerenGlow Everyday Bangles",
-      slug: toSlug("serenglow-everyday-bangles"),
-      category: 'Braclets & Bangles',
+      name: "SerenGlow Everyday Bangle",
+      slug: toSlug("serenglow-everyday-Bangle"),
+      category: 'Braclet & Bangle',
       subCategory: 'Daily Wear',
       images: ['/images/b_daily_1.jpg', '/images/b_daily_2.jpg'],
       tags: ['new-arrival'],
@@ -332,7 +333,7 @@ const products: IProductInput[] = [
       countInStock: 31,
       numSales: 48,
       description:[
-        "Elegant combo of daily wear bracelets and bangles in a timeless design.",
+        "Elegant combo of daily wear bracelets and Bangle in a timeless design.",
         "Crafted from skin-safe, tarnish-resistant metal for long-lasting wear.",
         "Versatile styles suitable for office, casual, and festive occasions.",
         "Smooth inner edges for comfortable all-day use.",
@@ -348,7 +349,7 @@ const products: IProductInput[] = [
       slug: toSlug(
         'celeste-whisper-office-charm-bracelet'
       ),
-      category: 'Braclets & Bangles',
+      category: 'Braclet & Bangle',
       subCategory: 'Office Wear',
       images: ['/images/b_office_1.webp', '/images/b_office_2.webp'],
       tags: ['featured'],
@@ -383,7 +384,7 @@ const products: IProductInput[] = [
       slug: toSlug(
         'aurora-hand-harness-bracelet'
       ),
-      category: 'Braclets & Bangles',
+      category: 'Braclet & Bangle',
       subCategory: 'Party Wear',
       images: ['/images/b_party_1.jpg', '/images/b_party_2.jpg'],
       tags: ['best-seller'],
@@ -418,7 +419,7 @@ const products: IProductInput[] = [
       slug: toSlug(
         'mystic-bead-charm-bracelet'
       ),
-      category: 'Braclets & Bangles',
+      category: 'Braclet & Bangle',
       subCategory: 'Indo-Western',
       images: ['/images/b_indo_1.jpg', '/images/b_indo_2.jpg'],
       tags: ['todays-deal'],
@@ -447,7 +448,7 @@ const products: IProductInput[] = [
     {
       name: 'Twinkle Charms Kids Bracelet',
       slug: toSlug('twinkle-charms-kids-bracelet'),
-      category: 'Braclets & Bangles',
+      category: 'Braclet & Bangle',
       subCategory: 'Kids Wear',
       images: ['/images/b_kids_1.jpg', '/images/b_kids_2.jpg', '/images/b_kids_3.jpg'],
       tags: ['new-arrival', 'featured'],
@@ -480,7 +481,7 @@ const products: IProductInput[] = [
     {
       name: 'Engraved Name Bracelet Cuff',
       slug: toSlug('engraved-name-bracelet-cuff'),
-      category: 'Braclets & Bangles',
+      category: 'Braclet & Bangle',
       subCategory: 'Customized',
       images: ['/images/b_customised_1.jpg'],
       tags: ['best-seller', 'todays-deal'],
@@ -510,13 +511,13 @@ const products: IProductInput[] = [
   
       reviews: [],
     },
-    // Anklets 
+    // Anklet 
     {
       name: 'Classic Daily Wear Anklet',
       slug: toSlug(
         'classic-daily-wear-anklet'
       ),
-      category: 'Anklets',
+      category: 'Anklet',
       subCategory: 'Daily Wear',
       images: ['/images/a_daily_1.jpg', '/images/a_daily_2.jpg'],
       tags: ['featured'],
@@ -550,7 +551,7 @@ const products: IProductInput[] = [
     {
       name: 'Everyday Kids Charm Anklet',
       slug: toSlug('everyday-kids-charm-anklet'),
-      category: 'Anklets',
+      category: 'Anklet',
       subCategory: 'Daily Wear',
       images: ['/images/a_kids_1.jpg', '/images/a_kids_2.jpg'],
       tags: ['new-arrival'],
@@ -621,24 +622,24 @@ const data : Data = {
 
     carousels: [
         {
-            title: 'Most popular Rings for Sale',
+            title: 'Most popular Ring for Sale',
             buttonCaption: 'Shop Now',
             image: '/images/banner2.jpg',
-            url: '/search?category=Rings',
+            url: '/search?category=Ring',
             isPublished: true,
         },
         {
-            title: 'Best Sellers in Necklaces',
+            title: 'Best Sellers in necklace',
             buttonCaption: 'Shop Now',
             image: '/images/banner1.jpg',
-            url: '/search?category=Necklaces',
+            url: '/search?category=necklace',
             isPublished: true,
         },
         {
-            title: 'Best Deals on Braclets',
+            title: 'Best Deals on Braclet',
             buttonCaption: 'Shop Now',
             image: '/images/banner3.jpg',
-            url: '/search?category=Rings',
+            url: '/search?category=Ring',
             isPublished: true,
         },
     ],
